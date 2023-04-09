@@ -1,0 +1,207 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+
+
+
+.homepage {
+    padding: 2% 5% 0 5%;
+    background-color: #393E46;
+
+
+
+}
+
+
+
+.navbar {
+    margin-top: 10px;
+
+}
+
+.btn {
+    margin-top: 30px;
+    width: 70%
+}
+
+
+@media (max-width:995px) {
+    .Me-image{
+        position:static;
+
+
+    }
+
+    .intro {
+        margin: 30px 30px 35px 30px;
+    }
+
+    .title-row {
+        text-align: center;
+    }
+
+    .horizontal-line {
+        border-top:2px solid #ffbf00 ;
+        border-bottom: 1px solid #ffbf00;
+        text-align: center;
+    }
+ 
+}
+
+
+.title-row {
+    padding: 40px 0px 0px 0px;
+    margin: 10px 10px 0 10px;
+    height: 75%;
+    background-color: #393E46;
+    color:white;
+    
+    
+}
+.Me-image {
+    width: 90%;
+    height: 90%;
+  
+
+}
+
+.horizontal-line {
+    text-align: left;
+    width: 100%;
+    border-top:2px solid #ffbf00;
+}
+
+.my-contact {
+    padding: 10px auto 10px 0;
+}
+
+.fa-instagram,fa-linkedin {
+    margin: 0 20px 15px 20px ;
+}
+
+.fa-brands:hover {
+    color:#ffad0a !important;
+}/* 用！important去覆蓋defult */
+
+.Me-image {
+    text-align: center;
+    margin: 0;
+    width: 422px;
+    height: 488px;
+}
+
+.about-me-container {
+    text-align: center;
+    padding: 5%;
+    color:white;
+    background-color: #232931;
+}
+
+.skill {
+    text-align: center;
+}
+
+.about-me-paragraph {
+   text-align: center;
+   margin-bottom:40px; ;
+    height: 100%;
+    width: 100%;
+}
+
+.skill-table-2 {
+   margin: 10% 1% 0 45%;
+   text-align: right;
+}
+
+.skill-image{
+    margin: 30px;
+    height: 120px;
+    width: 120px;
+}
+
+.footer {
+    text-align: center;
+    color: #ffad0a;
+    background-color: #232931;
+    padding-top: 40px;
+    margin: 0;
+ 
+}
+
+
+.footer-hr {
+    width: 100%;
+    border-top:3px solid #F7C04A;
+  
+}
+
+.bottom-paragraph {
+    padding: 5px;
+    color: #FFFF;
+}
+
+.footer-row {
+    padding: 30px;
+}
+
+.footer-information  {
+    text-align: left;
+    background-color: #393E46;
+    margin: 60px 80px 20px 120px;
+    padding: 15px;
+    height:80px;
+    width: 260px;
+    display: flex;
+    border-radius: 5%;
+    
+}
+
+.fa-skype,.fa-solid  {
+   padding-top:20px; 
+}
+
+.my-project-container {
+    text-align: left;
+    padding: 1%;
+    color:white;
+    background-color: #393E46;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 3%;
+    border-radius: 0;
+    background-color:#232931;
+    color: #ffad0a;
+   
+  
+
+}
+
+
+
+.tindog {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3%;
+    background-size: cover;
+}
+
+.tindog:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+    box-shadow: #232931;
+   
+}
